@@ -1,4 +1,4 @@
-# SYNOPSIS
+# Picoprompt
 
 A very simple sync prompt for node **for educational purposes**.
 

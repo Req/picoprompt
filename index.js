@@ -2,9 +2,9 @@ import { openSync, readSync, closeSync } from 'fs'
 import stripAnsi from 'strip-ansi'
 
 /**
- * prompt -- Blocking / sync function for reading user input from stdin
- * @param {String} question opening question/statement to prompt for
- * @returns {String} Returns the string input or terminates with a ^C or ^D
+ * Blocking (synchronous) function for reading user input from stdin
+ * @param {String} question opening question or statement to prompt for
+ * @returns {String} the string input or terminates with a ^C or ^D
  */
 function prompt(question) {
   if (typeof question !== 'string') {
@@ -32,7 +32,7 @@ function prompt(question) {
     if (bytesRead > 1) {
       switch(buf.toString()) {
         case '\u001b[D': // left arrow
-          const before = cursorPosition
+          var before = cursorPosition
           cursorPosition = (--cursorPosition < 0) ? 0 : cursorPosition
           if (before - cursorPosition)
             process.stdout.write('\u001b[1D')

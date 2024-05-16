@@ -6,7 +6,7 @@ The goal of this fork is to be as simple as possible for usage in education. It 
 
 ## Installation
 
-- Install with `npm install promptin`
+- Install with `npm install picoprompt`
 - Add `"type": "module"` into package.json
 
 - Minimal example of `package.json`
@@ -15,7 +15,7 @@ The goal of this fork is to be as simple as possible for usage in education. It 
     {
         "type": "module",
         "dependencies": {
-            "promptin": "^5.0.0"
+            "picoprompt": "^5.0.0"
         }
     }
     ```
@@ -23,7 +23,7 @@ The goal of this fork is to be as simple as possible for usage in education. It 
 ## Usage
 
 ```js
-import prompt from 'promptin'
+import prompt from 'picoprompt'
 
 const name = prompt('What is your name? ')
 console.log(`Hello ${name}!`)

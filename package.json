@@ -10,18 +10,33 @@
   },
   "license": "MIT",
   "dependencies": {
-    "strip-ansi": "^5.0.0"
+    "strip-ansi": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Req/promptin.git"
   },
   "keywords": [
-    "synchronous", "blocking", "sync",
-    "prompt","prompts","interact","readline","input","stdin",
-    "command-line", "cli",
+    "synchronous",
+    "blocking",
+    "sync",
+    "prompt",
+    "prompts",
+    "interact",
+    "readline",
+    "input",
+    "stdin",
+    "command-line",
+    "cli",
     "esm",
-    "educational", "minimal", "learn", "simple", "teach"
+    "educational",
+    "minimal",
+    "learn",
+    "simple",
+    "teach"
   ],
   "contributors": [
     {

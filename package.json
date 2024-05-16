@@ -1,24 +1,27 @@
 {
-  "name": "prompt-sync",
-  "version": "4.2.0",
-  "description": "a synchronous prompt for node.js",
+  "name": "promptin",
+  "version": "5.0.0",
+  "description": "A synchronous prompt for Node.js",
+  "author": "Joel Peltonen (https://github.com/req)",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "node test"
   },
+  "license": "MIT",
+  "dependencies": {
+    "strip-ansi": "^5.0.0"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heapwolf/prompt-sync.git"
+    "url": "https://github.com/Req/promptin.git"
   },
   "keywords": [
-    "prompt",
-    "sync",
-    "blocking",
-    "readline",
-    "input",
-    "getline",
-    "repl"
+    "synchronous", "blocking", "sync",
+    "prompt","prompts","interact","readline","input","stdin",
+    "command-line", "cli",
+    "esm",
+    "educational", "minimal", "learn", "simple", "teach"
   ],
   "contributors": [
     {
@@ -29,9 +32,5 @@
       "name": "David Mark Clements",
       "email": "david.clements@nearform.com"
     }
-  ],
-  "license": "MIT",
-  "dependencies": {
-    "strip-ansi": "^5.0.0"
-  }
+  ]
 }

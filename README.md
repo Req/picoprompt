@@ -2,7 +2,9 @@
 
 A very simple sync prompt for node **for educational purposes**.
 
-The goal of this fork is to be as simple as possible for usage in education. It enables students to practice with simple user inputs, without deeply learning about callbacks or promises. ESM only.
+The goal of this is to be as simple as possible for usage in education. It enables students to practice with simple user inputs early on, without callbacks or promises.
+
+Dependencies are inlined, ESM only.
 
 ## Installation
 

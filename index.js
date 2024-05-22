@@ -1,5 +1,5 @@
 import { openSync, readSync, closeSync } from 'fs'
-import stripAnsi from 'strip-ansi'
+import stripAnsi from './libs/strip-ansi.js'
 
 /**
  * Blocking (synchronous) function for reading user input from stdin
